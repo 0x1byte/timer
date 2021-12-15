@@ -5,7 +5,7 @@ import Modal from './components/Modal';
 import Work from './components/Work';
 
 export const Context = React.createContext();
-
+const data;
 function App() {
   const [work, setWork] = useState('');
   const [show, setShow] = useState(false);
